@@ -9,9 +9,16 @@ package core.person;
  * @author USER
  */
 public abstract class Persona {
+    private String name;
+    private int edad;
+    private int cedula;
 
-    public Persona() {
-        
+    public Persona(String name, int edad, int cedula) {
+        this.name = name;
+        this.edad = edad;
+        this.cedula = cedula;
     }
+    
+    
     
 }
