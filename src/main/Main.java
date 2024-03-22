@@ -9,7 +9,10 @@ package main;
  * @author USER
  */
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello Aturo Felipe II");
+        int a = 5;
+        int b = 10;
+        System.out.println((a << 1) == b);
     }
 }
