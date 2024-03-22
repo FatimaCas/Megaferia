@@ -15,7 +15,9 @@ public abstract class Libro {
     private int code;
     
     public Libro(String[]autores, int numPag, int code) {
-        
+        this.numPag= numPag;
+        this.autores= autores;
+        this.code= code;
     }
     
 }
