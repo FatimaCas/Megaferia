@@ -12,7 +12,8 @@ import core.book.Libro;
  */
 public class LibroImpreso extends Libro{
 
-    public LibroImpreso() {
+    public LibroImpreso(String[] autores, int numPag, int code) {
+        super(autores, numPag, code);
     }
     
 }
