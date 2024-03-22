@@ -12,7 +12,10 @@ import core.book.Libro;
  */
 public class AudioLibro extends Libro{
 
-    public AudioLibro() {
+    public AudioLibro(String[] autores, int numPag, int code) {
+        super(autores, numPag, code);
     }
+
+    
     
 }

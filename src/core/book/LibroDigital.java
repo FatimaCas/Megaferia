@@ -12,7 +12,10 @@ import core.book.Libro;
  */
 public class LibroDigital extends Libro {
 
-    public LibroDigital() {
+    public LibroDigital(String[] autores, int numPag, int code) {
+        super(autores, numPag, code);
     }
+
+    
     
 }
