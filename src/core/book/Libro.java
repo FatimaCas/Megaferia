@@ -9,8 +9,13 @@ package core.book;
  * @author USER
  */
 public abstract class Libro {
-
-    public Libro() {
+    
+    private int numPag;
+    private String[] autores;
+    private int code;
+    
+    public Libro(String[]autores, int numPag, int code) {
+        
     }
     
 }
