@@ -2,12 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package helpers;
+package core.book;
 
 /**
  *
  * @author USER
  */
-public class Narrador {
+public abstract class Libro {
+
+    public Libro() {
+    }
     
 }
